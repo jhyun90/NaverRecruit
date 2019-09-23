@@ -36,6 +36,7 @@ for i in range(len(record)):
             del tmp_stack[-1]
 
         else:
+            # break
             continue
 
         print("-- after continue --; 임시보관함에 저장된 메일이 있다는 뜻 ")
